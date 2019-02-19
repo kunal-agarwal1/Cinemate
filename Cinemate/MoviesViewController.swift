@@ -55,6 +55,17 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
      let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
+        
+        //set cell background
+        if (indexPath.row % 2 == 1)
+        {
+            cell.backgroundColor = UIColor.groupTableViewBackground
+        }
+        else
+        {
+            cell.backgroundColor = UIColor.white
+        }
+        //get movie info
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String
         let synopsis = movie["overview"] as! String
