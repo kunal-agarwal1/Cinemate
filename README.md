@@ -17,6 +17,12 @@ Cinemate is an app that allows users to browse movies from the [The Movie Databa
 
 <img src="http://g.recordit.co/nKkLjxHB5o.gif" width=250><br>
 
+###### App Walkthough Video
+<video controls="" height="240" width="320">
+  <source src="https://streamable.com/s/16wem/qgeydt.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+
 ### Notes
 Describe any challenges encountered while building the app.
 - One major challenge I faced was getting the poster to modal to the viewcontroller with the webview. Adding the functionality with the show seguw was easy, but since using modal removes the navigation controller, adding a back button with a working webview was difficult. 
