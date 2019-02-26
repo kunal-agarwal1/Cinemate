@@ -150,13 +150,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HzV-Sr-7bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="egg-J8-HeE">
                     <connections>
-                        <segue destination="Aep-ah-bTi" kind="show" id="eJO-aZ-Pgg"/>
+                        <segue destination="Aep-ah-bTi" kind="presentation" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" id="9P8-ox-mPM"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2012" y="116.49175412293854"/>
         </scene>
-        <!--Trailer View Controller-->
+        <!--View Trailer-->
         <scene sceneID="3tf-dm-KgD">
             <objects>
                 <viewController id="Aep-ah-bTi" customClass="TrailerViewController" customModule="Cinemate" customModuleProvider="target" sceneMemberID="viewController">
@@ -166,10 +166,22 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rHG-Gg-yCv"/>
                     </view>
+                    <navigationItem key="navigationItem" title="View Trailer" id="Iqj-iS-OBz">
+                        <barButtonItem key="leftBarButtonItem" title="Return" style="plain" id="twr-uv-XP5">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wk3-8V-RdK">
+                                <rect key="frame" x="16" y="7" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Return"/>
+                            </button>
+                            <connections>
+                                <action selector="dismissClick:" destination="Aep-ah-bTi" id="8WM-Pc-BbV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgK-Fl-itd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2824.8000000000002" y="88.605697151424295"/>
+            <point key="canvasLocation" x="2794" y="117"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="WiC-qA-f6Z">
