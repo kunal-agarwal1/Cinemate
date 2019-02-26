@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB91908221CF814002EFEB8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB91907221CF814002EFEB8 /* DetailsViewController.swift */; };
+		0CB9190A221CFD61002EFEB8 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB91909221CFD61002EFEB8 /* MovieGridViewController.swift */; };
+		0CB9190C221CFF8E002EFEB8 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9190B221CFF8E002EFEB8 /* MovieGridCell.swift */; };
 		0CBA13D1221B5CCF001883C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA13D0221B5CCF001883C5 /* AppDelegate.swift */; };
 		0CBA13D6221B5CCF001883C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA13D4221B5CCF001883C5 /* Main.storyboard */; };
 		0CBA13D8221B5CD1001883C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA13D7221B5CD1001883C5 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 		0CBA13F1221B5CD1001883C5 /* CinemateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA13F0221B5CD1001883C5 /* CinemateUITests.swift */; };
 		0CBA13FF221B5DCB001883C5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA13FE221B5DCB001883C5 /* MoviesViewController.swift */; };
 		0CBA1401221B6664001883C5 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA1400221B6664001883C5 /* MovieCell.swift */; };
+		0CF1098C2224FA5D00AF0ED0 /* GridDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1098B2224FA5D00AF0ED0 /* GridDetailsViewController.swift */; };
+		0CF1098E2225076A00AF0ED0 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1098D2225076A00AF0ED0 /* TrailerViewController.swift */; };
+		0CF109902225077700AF0ED0 /* GridTrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1098F2225077700AF0ED0 /* GridTrailerViewController.swift */; };
 		3888AE560F7C15FA7A27446B /* Pods_Cinemate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F65645FDA65B77F8BAD18 /* Pods_Cinemate.framework */; };
 		93496E3C1B7D930F24606129 /* Pods_CinemateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DA38861E58F1630412F84A /* Pods_CinemateTests.framework */; };
 		AD689A83BF9487EA44C67AE8 /* Pods_CinemateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4790CDE712B909964E688101 /* Pods_CinemateUITests.framework */; };
@@ -38,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CB91907221CF814002EFEB8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0CB91909221CFD61002EFEB8 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		0CB9190B221CFF8E002EFEB8 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		0CBA13CD221B5CCF001883C5 /* Cinemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBA13D0221B5CCF001883C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBA13D5221B5CCF001883C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +61,9 @@
 		0CBA13F2221B5CD1001883C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CBA13FE221B5DCB001883C5 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		0CBA1400221B6664001883C5 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		0CF1098B2224FA5D00AF0ED0 /* GridDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDetailsViewController.swift; sourceTree = "<group>"; };
+		0CF1098D2225076A00AF0ED0 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		0CF1098F2225077700AF0ED0 /* GridTrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTrailerViewController.swift; sourceTree = "<group>"; };
 		188F65645FDA65B77F8BAD18 /* Pods_Cinemate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinemate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28178192BD5CD8C0557C0AE1 /* Pods-Cinemate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinemate.release.xcconfig"; path = "Target Support Files/Pods-Cinemate/Pods-Cinemate.release.xcconfig"; sourceTree = "<group>"; };
 		4790CDE712B909964E688101 /* Pods_CinemateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CinemateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +131,12 @@
 				0CBA13D0221B5CCF001883C5 /* AppDelegate.swift */,
 				0CBA13FE221B5DCB001883C5 /* MoviesViewController.swift */,
 				0CBA13D4221B5CCF001883C5 /* Main.storyboard */,
+				0CF1098D2225076A00AF0ED0 /* TrailerViewController.swift */,
+				0CF1098F2225077700AF0ED0 /* GridTrailerViewController.swift */,
+				0CB9190B221CFF8E002EFEB8 /* MovieGridCell.swift */,
+				0CB91909221CFD61002EFEB8 /* MovieGridViewController.swift */,
+				0CB91907221CF814002EFEB8 /* DetailsViewController.swift */,
+				0CF1098B2224FA5D00AF0ED0 /* GridDetailsViewController.swift */,
 				0CBA1400221B6664001883C5 /* MovieCell.swift */,
 				0CBA13D7221B5CD1001883C5 /* Assets.xcassets */,
 				0CBA13D9221B5CD1001883C5 /* LaunchScreen.storyboard */,
@@ -165,7 +183,6 @@
 				84F0DBF1F3BF64B891DF1266 /* Pods-CinemateUITests.debug.xcconfig */,
 				E6AECEF35CA8B4EFC61A2187 /* Pods-CinemateUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -397,9 +414,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF1098E2225076A00AF0ED0 /* TrailerViewController.swift in Sources */,
+				0CB9190A221CFD61002EFEB8 /* MovieGridViewController.swift in Sources */,
 				0CBA13D1221B5CCF001883C5 /* AppDelegate.swift in Sources */,
+				0CF109902225077700AF0ED0 /* GridTrailerViewController.swift in Sources */,
 				0CBA13FF221B5DCB001883C5 /* MoviesViewController.swift in Sources */,
 				0CBA1401221B6664001883C5 /* MovieCell.swift in Sources */,
+				0CF1098C2224FA5D00AF0ED0 /* GridDetailsViewController.swift in Sources */,
+				0CB9190C221CFF8E002EFEB8 /* MovieGridCell.swift in Sources */,
+				0CB91908221CF814002EFEB8 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
