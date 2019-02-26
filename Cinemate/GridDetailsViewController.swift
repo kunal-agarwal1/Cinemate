@@ -80,7 +80,12 @@ class GridDetailsViewController: UIViewController {
      // Get the new view controller using segue.destination.
         // pass key to trailerviewcontroller
         let gridTrailerViewController = segue.destination as! GridTrailerViewController
+        if(key != nil){
         gridTrailerViewController.key = key
+        }
+        else{
+        gridTrailerViewController.key = "no_trailer"
+        }
      }
  
     
