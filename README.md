@@ -18,7 +18,7 @@ Cinemate is an app that allows users to browse movies from the [The Movie Databa
 <img src="http://g.recordit.co/nKkLjxHB5o.gif" width=250><br>
 
 ###### App Walkthough Video
-<div style="width: 100%; height: 0px; position: relative; padding-bottom: 177.867%;"><iframe src="https://streamable.com/s/16wem/ceznsa" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
+<div style="width: 100%; height: 0px; position: relative; padding-bottom: 177.867%;"><img src="https://streamable.com/s/16wem/ceznsa" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"/></div>
 
 ### Notes
 Describe any challenges encountered while building the app.
